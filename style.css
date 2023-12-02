@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(6, 34, 58);
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    color: brown;
+}
+#contenedor{
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    color: brown;
+
+}
+#calculadora{
+    width: 50%;
+    height: 100%;  
+}
+.contenido {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 400px;
+}
+#resultado{
+    background-image: linear-gradient(rgb(30, 30, 94), grey);
+    border-radius: 20px;
+    color: black;
+    height: 210px;
+    width: 500px;
+    margin-top: 20px;
+}
